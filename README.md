@@ -6,7 +6,7 @@ You can find document for the `onvif-nvt` package [here](https://hawkeye64.githu
 
 This is a good project for anyone interested in programming ONVIF-compliant cameras. However, in an unconventional way, the server code was written into the `build/script.dev.js` because it was *quick and dirty*. The application uses sockets to communicate ONVIF commands with the client.
 
-This sample application will not run properly if you do not any ONVIF-compliant cameras on your network. If you don't know if you have an ONVIF-compliant camera, you can verify it [here](https://www.onvif.org/conformant-products/). Occassionally, some cameras need a firmware upgrade to support ONVIF (depending on age), in which case, refer to your camera manufacturer's website and support information for your particular camera.
+This sample application will not do much if you do not have any ONVIF-compliant cameras on your network. If you don't know if you have an ONVIF-compliant camera, you can verify it [here](https://www.onvif.org/conformant-products/). Occassionally, some cameras need a firmware upgrade to support ONVIF (depending on age), in which case, refer to your camera manufacturer's website and support information for your particular camera.
 
 ## Installation and Running
 To install, run `npm install`.
