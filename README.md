@@ -20,3 +20,29 @@ If you have an ONVIF-compliant camera, you can start the app with `npm run dev`.
 5. GotoHomePosition / SetHomePosition
 6. GotoPreset / SetPreset / RemovePreset
 
+#### Discovery
+![Discovery](https://github.com/hawkeye64/onvif-nvt-snapshot-vue-sample/raw/master/images/1.png "Discovery")
+
+#### Cameras
+![Cameras](https://github.com/hawkeye64/onvif-nvt-snapshot-vue-sample/raw/master/images/2.png "Cameras")
+
+#### Connect
+![Connect](https://github.com/hawkeye64/onvif-nvt-snapshot-vue-sample/raw/master/images/3.png "Connect")
+
+#### Snapshot
+![Snapshot](https://github.com/hawkeye64/onvif-nvt-snapshot-vue-sample/raw/master/images/4.png "Snapshot")
+
+#### Device Information
+![Device Information](https://github.com/hawkeye64/onvif-nvt-snapshot-vue-sample/raw/master/images/5.png "Device Information")
+
+#### Add Preset
+![Add Preset](https://github.com/hawkeye64/onvif-nvt-snapshot-vue-sample/raw/master/images/6.png "Add Preset")
+
+#### Remove Preset
+![Remove Preset](https://github.com/hawkeye64/onvif-nvt-snapshot-vue-sample/raw/master/images/7.png "Remove Preset")
+
+#### Goto Preset
+![Goto Preset](https://github.com/hawkeye64/onvif-nvt-snapshot-vue-sample/raw/master/images/8.png "Goto Preset")
+
+#### Set Home Position
+![Set Home Position](https://github.com/hawkeye64/onvif-nvt-snapshot-vue-sample/raw/master/images/8.png "Goto Set Home Position")
