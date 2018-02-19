@@ -45,4 +45,4 @@ If you have an ONVIF-compliant camera, you can start the app with `npm run dev`.
 ![Goto Preset](https://github.com/hawkeye64/onvif-nvt-snapshot-vue-sample/raw/master/images/8.png "Goto Preset")
 
 #### Set Home Position
-![Set Home Position](https://github.com/hawkeye64/onvif-nvt-snapshot-vue-sample/raw/master/images/8.png "Goto Set Home Position")
+![Set Home Position](https://github.com/hawkeye64/onvif-nvt-snapshot-vue-sample/raw/master/images/9.png "Goto Set Home Position")
