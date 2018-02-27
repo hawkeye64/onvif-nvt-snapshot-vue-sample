@@ -36,7 +36,7 @@ var devMiddleware = require('webpack-dev-middleware')(compiler, {
 })
 
 var hotMiddleware = require('webpack-hot-middleware')(compiler, {
-  log: function () {}
+  log: function () { }
 })
 
 // force page reload when html-webpack-plugin template changes
@@ -96,7 +96,7 @@ io.on('connect', (client) => {
   client.on('error', () => {
     console.log('socket.io error')
   })
-  
+
   client.on('disconnect', (client) => {
     console.log('client disconnected')
   })
@@ -115,16 +115,16 @@ io.on('connect', (client) => {
   client.on('connectCamera', (address, username, password) => {
     console.log('connectCamera', address, username, password)
     OnvifManager.connect(address, null, username, password)
-    .then(results => {
-      let camera = results
-      // we will want the snapshot component
-      camera.add('snapshot')
-      connectedCameras[address] = camera
-      client.emit('connectCamera:result', camera)
-    })
-    .catch(error => {
-      client.emit('connectCamera:error', error.message)
-    })
+      .then(results => {
+        let camera = results
+        // we will want the snapshot component
+        camera.add('snapshot')
+        connectedCameras[address] = camera
+        client.emit('connectCamera:result', camera)
+      })
+      .catch(error => {
+        client.emit('connectCamera:error', error.message)
+      })
   })
 
   client.on('snapshoturi', (hostname) => {
@@ -169,7 +169,7 @@ io.on('connect', (client) => {
           .catch(error => {
             console.error('presets error', error.message)
             client.emit('presets:error', error.message)
-            })
+          })
       }
       else {
         let message = new Error(`${hostname}' is not a PTZ device`)
