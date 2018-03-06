@@ -102,7 +102,10 @@ io.on('connect', (client) => {
   })
 
   client.on('findOnvifCameras', () => {
-    OnvifManager.add('discovery')
+    if (!OnvifManager.discovery) {
+      // add discovery if it hasn't already been added
+      OnvifManager.add('discovery')
+    }
     OnvifManager.discovery.startProbe()
       .then(cameras => {
         client.emit('findOnvifCameras:result', cameras)
