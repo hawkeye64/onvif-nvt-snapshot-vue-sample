@@ -148,8 +148,8 @@ export default {
       self.findOnvifCameras()
     })
 
-    this.socket.on('error', () => {
-      console.log('test')
+    this.socket.on('error', (error) => {
+      console.error(error)
     })
 
     this.socket.on('disconnect', () => {
