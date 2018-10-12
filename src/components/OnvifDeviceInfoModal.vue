@@ -86,14 +86,14 @@
 
     methods: {
       doClose: function () {
-        console.log('onvifInfoModal doClose')
+        // console.log('onvifInfoModal doClose')
         this.openOnvifInfoModal = false
-        console.log(this.$refs.onvifInfoModal)
+        // console.log(this.$refs.onvifInfoModal)
         this.$refs.onvifInfoModal.close()
       },
 
       onClosed: function () {
-        console.log('onvifInfoModal - onClosed')
+        // console.log('onvifInfoModal - onClosed')
         this.$emit('closed')
       }
     },
@@ -103,11 +103,11 @@
 
     watch: {
       visible: function (value) {
-        console.log('OnvifInfoModal - visible', value)
+        // console.log('OnvifInfoModal - visible', value)
         this.openOnvifInfoModal = value
       },
       openOnvifInfoModal: function (value) {
-        console.log('openOnvifInfoModal changed', value)
+        // console.log('openOnvifInfoModal changed', value)
         this.openOnvifInfoModal = value
       }
     }

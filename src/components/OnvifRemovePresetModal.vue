@@ -84,14 +84,14 @@
 
     methods: {
       doClose: function () {
-        console.log('onvifRemovePresetModal doClose')
+        // console.log('onvifRemovePresetModal doClose')
         this.openOnvifRemovePresetModal = false
         this.$refs.onvifRemovePresetModal.close()
       },
 
       // called when modal is closed
       onClosed: function () {
-        console.log('onvifRemovePresetModal onClosed')
+        // console.log('onvifRemovePresetModal onClosed')
         this.$emit('closed')
       },
 
@@ -100,7 +100,7 @@
       },
 
       onRemove: function () {
-        console.log('Selected Preset:', this.selectedPreset)
+        // console.log('Selected Preset:', this.selectedPreset)
         this.$emit('removePreset', this.selectedPreset)
       },
 
@@ -125,7 +125,7 @@
 
     watch: {
       visible: function (value) {
-        console.log('onvifRemovePresetModal visible changed', value)
+        // console.log('onvifRemovePresetModal visible changed', value)
         this.openOnvifRemovePresetModal = value
       }
     }

@@ -88,14 +88,14 @@
 
     methods: {
       doClose: function () {
-        console.log('onvifAddPresetModal doClose')
+        // console.log('onvifAddPresetModal doClose')
         this.openOnvifAddPresetModal = false
         this.$refs.onvifAddPresetModal.close()
       },
 
       // called when modal is closed
       onClosed: function () {
-        console.log('onvifAddPresetModal onClosed')
+        // console.log('onvifAddPresetModal onClosed')
         this.$emit('closed')
       },
 
@@ -116,9 +116,9 @@
         }
         // check if the camera already has a preset with this name
         for (let key in this.presets) {
-          console.log('Preset Key:', key)
+          // console.log('Preset Key:', key)
           if (key === this.presetName) {
-            console.log('Key Found!', this.presetName)
+            // console.log('Key Found!', this.presetName)
             this.presetErrorLabel = 'Preset name already exists'
             this.presetHasError = true
             return
@@ -137,7 +137,7 @@
 
     watch: {
       visible: function (value) {
-        console.log('onvifAddPresetModal visible changed', value)
+        // console.log('onvifAddPresetModal visible changed', value)
         this.openOnvifAddPresetModal = value
       },
       presetName: function (/* value */) {
