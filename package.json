@@ -24,7 +24,7 @@
     "socket.io-client": "^2.2.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6",
-    "snyk": "^1.189.0"
+    "snyk": "^1.226.2"
   },
   "devDependencies": {
     "autoprefixer": "^9.5.1",
