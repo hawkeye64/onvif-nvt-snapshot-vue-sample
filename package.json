@@ -20,8 +20,8 @@
     "quasar-extras": "2.x",
     "quasar-framework": "^0.17.20",
     "request": "^2.88.0",
-    "socket.io": "^2.2.0",
-    "socket.io-client": "^2.2.0",
+    "socket.io": "^3.0.0",
+    "socket.io-client": "^3.0.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6",
     "snyk": "^1.316.1"
